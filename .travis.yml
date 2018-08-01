@@ -1,7 +1,8 @@
 sudo: false
 language: node_js
 node_js:
-  # `gulp-pug` supports the active LTS and current versions of Node
+  # `gulp-pug` supports the active LTS and current versions of Node.
+  # Remember to update `appveyor.yml` when changing the tested versions.
   # See https://github.com/nodejs/Release
   - "lts/argon" # EOL: 2018-04-30
   - "lts/boron" # EOL: April 2019
